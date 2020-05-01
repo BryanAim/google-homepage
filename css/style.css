@@ -1,0 +1,50 @@
+body {
+  font-family: arial,sans-serif;
+}
+/* Main Div */
+.main img, input {
+  display: block;
+  margin: auto;
+}
+.main input{
+  width: 550px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: larger;
+}
+ /* Buttons Section */
+.main .buttons {
+  margin-top: 30px;
+  text-align: -webkit-center;
+}
+
+/* Individual Buttons */
+.main .buttons button {
+  font-size: medium;
+  border: 1px solid #f2f2f2;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 4px;
+}
+
+.main .buttons button:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+/* Center  Search Placeholder Text */
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  text-align: center;  
+}
+
+:-ms-input-placeholder {  
+  text-align: center; 
+}
