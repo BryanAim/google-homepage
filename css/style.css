@@ -1,6 +1,34 @@
 body {
   font-family: arial,sans-serif;
 }
+
+
+/* Navbar  */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  /* display: inline; */
+  float: left;
+}
+nav ul li.right{
+  /* display: inline; */
+  float: right;
+}
+nav ul li.sign-in a{
+  background-color: blue;
+  color: white;
+}
+
+ul li a{
+  /* display: inline; */
+  display: block;
+  padding: 6px 10px;
+  text-decoration: none;
+  color: #5f6368;
+}
 /* Main Div */
 .main img, input {
   display: block;
@@ -47,4 +75,11 @@ body {
 
 :-ms-input-placeholder {  
   text-align: center; 
+}
+
+footer ul {
+  background-color: #dddddd;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
